@@ -1,0 +1,50 @@
+install.packages("shiny")
+library(rmarkdown)
+library(leaflet)
+
+
+#BIG#
+
+##BIGGER##
+
+*Italics*
+  
+**Bold**
+  
+  
+*** Italics & Bold***
+
+- unordered item1
+- unordered item2
+
+1. ordered list
+2. ordered list 2
+
+--- #linebreaks
+  
+  
+Run this command `remder("index.Rmd`
+  
+``` 
+x = 5
+z - 10
+x * z
+```
+
+
+# - all of the code will be rendered into one block of code 
+#  (will also show the output ) if you put {r}
+
+```{r}
+library(rmarkdown)
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%
+  addMarkers(lng=174.768, lat=-36.852)
+```
+
+| Column 1 | Column 2 | Column 3 | # use python
+|---|---|---|
+| 1 | 2 | 3 |
+| 1 | 2 | 3 |
+
